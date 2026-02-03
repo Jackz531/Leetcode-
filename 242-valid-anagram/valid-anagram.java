@@ -4,6 +4,8 @@ class Solution {
     HashMap<Character,Integer> map2= new HashMap<>();
     int n2=t.length();
     int n1=s.length();
+    if (n1!=n2)
+    return false;
     for (int i=0;i<n1;i++)
     if ( map1.containsKey(s.charAt(i)))
       { 
